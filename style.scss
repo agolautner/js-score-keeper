@@ -62,6 +62,8 @@ body {
 
     text-align: center;
 
+    filter: drop-shadow(10px 10px 15px black);
+
     img {
         width: 100%;
         max-height: 40%;
@@ -78,6 +80,10 @@ body {
         span.loser {
             color: red;
         }
+    }
+
+    #playTo {
+        width: 50px;
     }
 
     #buttonsDiv {

@@ -33,7 +33,8 @@ body {
   height: 400px;
   background-color: #ebf2fa;
   text-align: center;
-  filter: drop-shadow(10px 10px 15px black);
+  -webkit-filter: drop-shadow(10px 10px 15px black);
+          filter: drop-shadow(10px 10px 15px black);
 }
 
 #card img {
@@ -52,6 +53,10 @@ body {
 
 #card h2 span.loser {
   color: red;
+}
+
+#card #playTo {
+  width: 50px;
 }
 
 #card #buttonsDiv {

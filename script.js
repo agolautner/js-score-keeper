@@ -10,14 +10,8 @@ function loadEvent() {
             <p>use the buttons to keep score.</p>
 
             <label for="playTo">Playing To</label>
-            <select name="playTo" id="playTo">
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-            </select>
-
+            <input type="number" name="playTo" id="playTo">
+            
             <div id="buttonsDiv">
                 <button id="p1Btn">+1 Player One</button>
                 <button id="p2Btn">+1 Player Two</button>
