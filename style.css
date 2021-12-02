@@ -33,6 +33,7 @@ body {
   height: 400px;
   background-color: #ebf2fa;
   text-align: center;
+  filter: drop-shadow(10px 10px 15px black);
 }
 
 #card img {
