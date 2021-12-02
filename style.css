@@ -23,6 +23,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   height: 100vh;
+  margin: 0;
   background-color: #679436;
   font-family: 'Rubik', sans-serif;
 }
