@@ -10,7 +10,7 @@ function loadEvent() {
             <p>use the buttons to keep score.</p>
 
             <label for="playTo">Playing To</label>
-            <input type="number" name="playTo" id="playTo">
+            <input type="number" value="5" name="playTo" id="playTo">
             
             <div id="buttonsDiv">
                 <button id="p1Btn">+1 Player One</button>
